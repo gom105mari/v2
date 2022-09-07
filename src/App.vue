@@ -11,18 +11,23 @@ export default {
         CenterPanel,
         RightPanel,
     },
+    data() {
+        return {};
+    },
 };
 </script>
 
 <template>
     <div class="row-vh d-flex flex-row" style="width: 100%; height: 100%">
-        <div style="width: 15%">
+        <div>
             <LeftPanel style="width: 100%" />
         </div>
-        <div style="width: 70%">
+        <va-divider vertical />
+        <div style="width: 65%">
             <CenterPanel />
         </div>
-        <div style="width: 15%">
+        <va-divider vertical />
+        <div>
             <RightPanel />
         </div>
     </div>
@@ -36,7 +41,7 @@ export default {
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
-    height: 80vh;
+    height: 90vh;
     background: rgb(244, 248, 250);
 }
 </style>

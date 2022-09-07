@@ -7,10 +7,10 @@
 </template>
 
 <script>
-    export default {
-        name: 'TopAppBar',
-        props: {
-            msg: String,
-        },
-    };
+export default {
+    name: 'TopAppBar',
+    props: {
+        msg: String,
+    },
+};
 </script>
